@@ -35,7 +35,7 @@ footer .address__link {
 
 .footer-container {
 	@extend %flex-center;
-	
+
 	flex-wrap: wrap;
 }
 
@@ -46,9 +46,7 @@ footer .address__link {
 
 
 .footer-media__title {
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.2;
+		@include font(14px, 700, 16.8px);
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #ffffff;

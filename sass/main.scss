@@ -1,6 +1,8 @@
 @import './utils/variables';
 @import './utils/visually-hidden.scss';
 @import './utils/placeholders';
+@import './utils/mixins';
+@import './utils/function-after_zero';
 
 @import './base/common';
 @import './base/container';
