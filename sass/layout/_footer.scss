@@ -1,0 +1,67 @@
+footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #2F303A;
+	min-height: 250px;
+}
+
+.address-ofice,
+footer .contact-link {
+	display: block;
+	font-size: 14px;
+	line-height: 1.71;
+	font-weight: 400;
+
+}
+
+footer .logo,
+.address-ofice {
+	color: #ffffff;
+
+}
+
+footer .logo {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.list .footer-item:not(:last-child) {
+	margin-bottom: 9px;
+}
+
+footer .contact-link {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+footer>.container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-adress {
+	width: 220px;
+	margin-right: 77px;
+}
+
+
+.footer-media>h2 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.footer-media .link-media {
+	background-color: rgba(255, 255, 255, 0.1);
+&:hover,
+&:focus {
+	background-color: var(--accent-color);
+}}
+
+
+
+

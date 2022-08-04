@@ -1,0 +1,41 @@
+
+.employee-list-media {
+  display: flex;
+	justify-content: center;
+
+	margin-top: 16px;
+
+	list-style: none;
+	gap: 10px;
+}
+
+
+.link-media {
+	border-radius: 50%;
+
+	display: flex;
+align-items: center;
+	justify-content: center;
+	
+	width: 44px;
+	height: 44px;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover, &:focus {
+    background-color: var(--accent-color);
+  }
+  
+}
+
+.media-svg {
+	fill: #AFB1B8;
+	
+	width: 20px;
+	height: 20px;
+
+	transition: fill 185ms cubic-bezier(0.4, 0, 0.2, 1);
+.link-media:hover &,
+.link-media:focus & {
+	fill: white;
+}
+}
+
