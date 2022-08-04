@@ -30,8 +30,7 @@
 
 
 .buttons {
-	display: flex;
-	flex-wrap: wrap;
+@extend %flex-wrap;
 	gap: 8px;
 	justify-content: center;
 }
@@ -116,8 +115,7 @@
 
 
 .examples {
-	display: flex;
-	flex-wrap: wrap;
+@extend %flex-wrap;
 	gap: 30px;
 	margin-top: 50px;
 

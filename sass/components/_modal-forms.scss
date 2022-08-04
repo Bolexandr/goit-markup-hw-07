@@ -106,8 +106,7 @@ margin-top: 30px;
 
 .contact-form-checkbox-desc {
 	font-size: 14px;
-	display: flex;
-	align-items: center;
+	@extend %flex-center;
 	margin-top: 20px;
 
 	font-size: 14px;

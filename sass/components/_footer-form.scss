@@ -5,14 +5,11 @@
 }
 
 .footer-form {
-	display: flex;
-flex-wrap: wrap;
+@extend %flex-wrap;
 }
 
 .btn-footer-form {
-	display: flex;
-align-items: center;
-	justify-content: center;
+	@extend %flex-center;
 
 	margin-left: 12px;
 

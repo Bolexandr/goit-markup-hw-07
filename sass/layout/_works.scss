@@ -1,9 +1,7 @@
 
 .works .list {
-	display: flex;
-	gap: 30px;
-	flex-wrap: wrap;
-
+@extend %flex-wrap;
+gap: 30px;
 	justify-content: center;
 }
 
@@ -11,15 +9,13 @@
 	padding-top: 0px;
 }
 
-.item-works {
+.works__item {
 	position: relative;
 }
 
-.item-works-label {
+.works__description {
 	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-center;
 
 	width: 100%;
 	height: 70px;

@@ -1,12 +1,12 @@
-footer {
+.main-footer{
 	padding-top: 60px;
 	padding-bottom: 60px;
 	background-color: #2F303A;
 	min-height: 250px;
 }
 
-.address-ofice,
-footer .contact-link {
+.address__office,
+footer .address__link {
 	display: block;
 	font-size: 14px;
 	line-height: 1.71;
@@ -15,7 +15,7 @@ footer .contact-link {
 }
 
 footer .logo,
-.address-ofice {
+.address__office {
 	color: #ffffff;
 
 }
@@ -25,19 +25,18 @@ footer .logo {
 	margin-bottom: 20px;
 }
 
-.list .footer-item:not(:last-child) {
+.addres__item:not(:last-child) {
 	margin-bottom: 9px;
 }
 
-footer .contact-link {
+footer .address__link {
 	color: rgba(255, 255, 255, 0.6);
 }
 
-footer>.container {
-	display: flex;
+.footer-container {
+	@extend %flex-center;
+	
 	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
 }
 
 .footer-adress {
@@ -46,7 +45,7 @@ footer>.container {
 }
 
 
-.footer-media>h2 {
+.footer-media__title {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.2;
@@ -55,7 +54,7 @@ footer>.container {
 	color: #ffffff;
 }
 
-.footer-media .link-media {
+.footer-media__link {
 	background-color: rgba(255, 255, 255, 0.1);
 &:hover,
 &:focus {

@@ -1,13 +1,12 @@
 
 .benefits .list {
-	display: flex;
-	flex-wrap: wrap;
+@extend %flex-wrap;
 	gap: 30px;
 
 	justify-content: center;
 }
 
-.benefit-top-box {
+.benefits__top-box {
 	width: 270px;
 	height: 120px;
 
@@ -15,13 +14,10 @@
 	border-radius: 4px;
 	margin-bottom: 30px;
 
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
+	@extend %flex-center;
 }
 
-.benefit-logo {
+.benefits-logo {
 	width: 70px;
 	height: 70px;
 
@@ -35,7 +31,7 @@
 
 }
 
-.item-benefit {
+.benefits__litem {
 	min-height: 100px;
 	max-width: 270px;
 }

@@ -1,16 +1,13 @@
-.clients-list {
-	display: flex;
+.clients {
 	list-style: none;
-	flex-wrap: wrap;
+@extend %flex-wrap;
 	gap: 30px;
 	justify-content: center;
 
 }
 
-.clients-link {
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
+.clients__link {
+	@extend %flex-center;
 
 
 	width: 170px;
@@ -26,8 +23,8 @@
 		&:focus {
 			border-color: var(--accent-color);
 		}
-		&:hover .clients-icon,
-		&:focus .clients-icon
+		&:hover .clients__ivcon,
+		&:focus .clients__ivcon
 		 {
 			fill: var(--accent-color);
 		}
