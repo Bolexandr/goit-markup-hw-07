@@ -6,7 +6,7 @@
 }
 
 .address__office,
-footer .address__link {
+.address__link {
 	display: block;
 	font-size: 14px;
 	line-height: 1.71;
@@ -14,7 +14,7 @@ footer .address__link {
 
 }
 
-footer .logo,
+.futer_logo,
 .address__office {
 	color: #ffffff;
 
@@ -29,17 +29,17 @@ footer .logo {
 	margin-bottom: 9px;
 }
 
-footer .address__link {
+.address__link {
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-container {
+.main-footer__container {
 	@extend %flex-center;
 
 	flex-wrap: wrap;
 }
 
-.footer-adress {
+.main-footer__adress {
 	width: 220px;
 	margin-right: 77px;
 }
@@ -51,14 +51,6 @@ footer .address__link {
 	text-transform: uppercase;
 	color: #ffffff;
 }
-
-.footer-media__link {
-	background-color: rgba(255, 255, 255, 0.1);
-&:hover,
-&:focus {
-	background-color: var(--accent-color);
-}}
-
 
 
 

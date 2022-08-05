@@ -23,8 +23,9 @@
 		&:focus {
 			border-color: var(--accent-color);
 		}
-		&:hover .clients__ivcon,
-		&:focus .clients__ivcon
+		
+		&:hover .clients__icon,
+		&:focus .clients__icon
 		 {
 			fill: var(--accent-color);
 		}
