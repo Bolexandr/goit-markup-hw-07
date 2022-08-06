@@ -339,6 +339,7 @@ img {
   font-size: 14px;
   line-height: 1.2;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .icon-footer-form {
@@ -722,7 +723,7 @@ footer .logo {
   margin-bottom: 20px;
 }
 
-.addres__item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
