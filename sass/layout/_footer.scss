@@ -34,8 +34,8 @@ footer .logo {
 }
 
 .main-footer__container {
-	@extend %flex-center;
-
+	display: flex;
+	
 	flex-wrap: wrap;
 }
 
@@ -50,6 +50,12 @@ footer .logo {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #ffffff;
+
+	margin-bottom: 20px;
+}
+
+.footer-media{
+	margin-top: 12px;
 }
 
 .list-media__svg_footer{
