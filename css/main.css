@@ -747,4 +747,8 @@ footer .logo {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.list-media__svg_footer {
+  fill: #ffffff;
 }/*# sourceMappingURL=main.css.map */
