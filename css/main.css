@@ -395,7 +395,6 @@ img {
   line-height: 1.38;
   letter-spacing: 0.03em;
   color: #000000;
-  margin-right: 93px;
 }
 
 .site-nav__link {
@@ -457,6 +456,10 @@ img {
 .contact-list__icon {
   display: inline-block;
   fill: currentColor;
+}
+
+.page-header__logo {
+  margin-right: 93px;
 }
 
 .hero {

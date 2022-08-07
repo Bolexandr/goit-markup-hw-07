@@ -44,7 +44,6 @@
 	letter-spacing: 0.03em;
 	color: #000000;
 
-	margin-right: 93px;
 }
 
 
@@ -117,4 +116,7 @@ color: var(--accent-color);
 	display: inline-block;
 
 	fill: currentColor;
+}
+.page-header__logo{
+	margin-right: 93px;
 }
